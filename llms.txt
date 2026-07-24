@@ -1,0 +1,16 @@
+# Libre AI (organization)
+
+> Libre AI is an open-source, sovereignty-focused software lab whose portfolio is built by AI agents under a governed, evidence-first method; no product is released yet, and every claim maps to a verifiable artifact in the canonical repository `libre-ai/libre-ai`.
+
+This file is the organization-level entry point for machine readers. The canonical, complete machine surface lives in the base repository — start there.
+
+## Canonical surfaces
+
+- [Canonical llms.txt](https://raw.githubusercontent.com/libre-ai/libre-ai/main/llms.txt): the complete machine-reader index — machine index, agent rules, positioning, evidence, contracts
+- [Repository index (JSON)](https://raw.githubusercontent.com/libre-ai/libre-ai/main/distribution/index/repositories.v1.json): deterministic projection of the authoritative inventory — public topology, layers, exposure states
+- [Organization profile (human-readable)](https://raw.githubusercontent.com/libre-ai/.github/main/profile/README.md): mission, the Polaris method, the product table, honest status — French; English variant alongside
+
+## Optional
+
+- [Canonical repository](https://github.com/libre-ai/libre-ai): all active work, doctrine, evidence and contracts
+- [db-inspect](https://github.com/libre-ai/db-inspect): the organization's only public executable today — fail-closed PostgreSQL schema inspection gate, pinned releases
