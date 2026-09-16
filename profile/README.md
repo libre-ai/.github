@@ -1,55 +1,41 @@
 <!-- SPDX-FileCopyrightText: 2026 Libre AI contributors -->
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
-<!-- Adapted for the retained Libre AI portfolio on 2026-09-14. -->
 
 # Libre AI
 
-AI work you can verify.
+Projects for working and learning with AI, while keeping control over sources and decisions.
 
-Libre AI brings together tools and documented product scopes for AI-assisted work. This portfolio map describes each repository’s responsibility. It does not certify that every product or capability is available.
+**Today:** the repositories below describe the projects. They do not yet provide applications to use or components to install.
 
-Read a repository’s own capability statement, limits and evidence before using it. A proposed contract is not a canonical commitment until its authority admits it. Admission of a contract does not establish that an implementation is available.
+## Planned products
 
-## Products
+Choose the need that interests you:
 
-- [Libre AI Work Supervision](https://github.com/libre-ai/ai-work-supervision) — Define and follow AI-assisted work.
-- [Libre AI Model Policy](https://github.com/libre-ai/ai-model-policy) — Model usage policies.
-- [Libre AI Practice Workbench](https://github.com/libre-ai/ai-practice-workbench) — Practice with guided activities.
-- [Libre AI Learning Session Facilitation](https://github.com/libre-ai/learning-session-facilitation) — Prepare and facilitate source-based learning sessions.
-- [Libre AI Personal Knowledge Notebook](https://github.com/libre-ai/personal-knowledge-notebook) — Capture and organize working notes.
-- [Libre AI Information Feed Filter](https://github.com/libre-ai/information-feed-filter) — Follow sourced information.
-- [Libre AI Travel Itinerary Planner](https://github.com/libre-ai/travel-itinerary-planner) — Plan travel from sourced information.
-- [Libre AI Public Vote Comparison](https://github.com/libre-ai/public-vote-comparison) — Compare privately with sourced public votes.
+- [Track work assigned to AI](https://github.com/libre-ai/ai-work-supervision)
+- [Understand which model uses are permitted](https://github.com/libre-ai/ai-model-policy)
+- [Learn through hands-on AI practice](https://github.com/libre-ai/ai-practice-workbench)
+- [Prepare and facilitate a learning session](https://github.com/libre-ai/learning-session-facilitation)
+- [Find your notes and their sources](https://github.com/libre-ai/personal-knowledge-notebook)
+- [Find useful information in your feeds](https://github.com/libre-ai/information-feed-filter)
+- [Plan an itinerary using sources you can inspect](https://github.com/libre-ai/travel-itinerary-planner)
+- [Compare your views with public votes](https://github.com/libre-ai/public-vote-comparison)
 
-## Components and tools
+## For developers
 
-- [Libre AI Application Development Toolkit](https://github.com/libre-ai/application-development-toolkit) — Shared application components.
-- [Libre AI Schemas And Contracts](https://github.com/libre-ai/schemas-and-contracts) — Canonical exchange contracts.
-- [Libre AI Collaborative Data Sync](https://github.com/libre-ai/collaborative-data-sync) — Synchronization.
-- [Libre AI Execution Continuity Evaluator](https://github.com/libre-ai/execution-continuity-evaluator) — Evaluate execution continuity without executing work.
-- [Libre AI Execution Sandbox](https://github.com/libre-ai/execution-sandbox) — Execution confinement.
-- [Libre AI Capability Authorization](https://github.com/libre-ai/capability-authorization) — Explicit permissions.
-- [Libre AI Organization Data Lifecycle](https://github.com/libre-ai/organization-data-lifecycle) — Data lifecycle rules.
-- [Libre AI Database Policy Inspector](https://github.com/libre-ai/database-policy-inspector) — Database inspection.
-- [Libre AI Artifact Verification](https://github.com/libre-ai/artifact-verification) — Artifact verification.
+These components are planned to build and connect the products:
 
-## Project
+- [Build application interfaces](https://github.com/libre-ai/application-development-toolkit)
+- [Define data exchanged between tools](https://github.com/libre-ai/schemas-and-contracts)
+- [Synchronize shared data](https://github.com/libre-ai/collaborative-data-sync)
+- [Assess whether work can continue or resume](https://github.com/libre-ai/execution-continuity-evaluator)
+- [Limit access for programs being run](https://github.com/libre-ai/execution-sandbox)
+- [Check permissions for an action](https://github.com/libre-ai/capability-authorization)
+- [Apply data retention and deletion rules](https://github.com/libre-ai/organization-data-lifecycle)
+- [Inspect database access rules](https://github.com/libre-ai/database-policy-inspector)
+- [Check that a file matches what is expected](https://github.com/libre-ai/artifact-verification)
 
-- [Libre AI](https://github.com/libre-ai/.github) — Portfolio navigation.
-- [Libre AI Project Website](https://github.com/libre-ai/project-website) — Public overview.
-- [Libre AI Project Governance](https://github.com/libre-ai/project-governance) — Shared rules and decisions.
+## The project
 
-## Contribute
+[Planned website](https://github.com/libre-ai/project-website) · [Project rules](https://github.com/libre-ai/project-governance) · [Contribute](https://github.com/libre-ai/.github/blob/main/CONTRIBUTING.md) · [Report a vulnerability privately](https://github.com/libre-ai/.github/blob/main/SECURITY.md)
 
-Start with the relevant repository and its contribution instructions. Keep security reports private; never put secrets or personal data in a public issue.
-
-[Contribution guide](https://github.com/libre-ai/.github/blob/main/CONTRIBUTING.md) · [Security reporting](https://github.com/libre-ai/.github/blob/main/SECURITY.md) · [Français](https://github.com/libre-ai/.github/blob/main/profile/README.fr.md)
-
-
----
-
-## Reviewed editorial source
-
-[Reviewed material](https://github.com/libre-ai/.github/blob/4402b08ee96f68b1b70435e303412c10bb208b03/docs/portfolio-material.json)
-
-SHA-256: `cb1439eaa9a07b29f0583d7a18e582a83e37679ac1dde4bfdc96b8a4e26df7a0`
+[Français](README.fr.md)
