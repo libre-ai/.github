@@ -1,0 +1,33 @@
+<!-- SPDX-FileCopyrightText: 2026 Libre AI contributors -->
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->
+<!-- Adapted for the retained Libre AI portfolio on 2026-09-14. -->
+
+# Libre AI
+
+Current portfolio map: profile/README.md (English), profile/README.fr.md (French).
+
+Use the current README and agent instructions of the relevant repository. Repository names identify ownership, not capability availability. Keep implemented behavior, proposed contracts, future scopes and test fixtures distinct. Canonical contracts belong to schemas-and-contracts; shared rules belong to project-governance.
+
+Do not infer current behavior from historical sources, private migration records or previous agent summaries. Reconcile the current revision and relevant evidence before making claims. Do not publish secrets or personal data.
+
+Repositories:
+- https://github.com/libre-ai/.github
+- https://github.com/libre-ai/ai-practice-workbench
+- https://github.com/libre-ai/application-development-toolkit
+- https://github.com/libre-ai/schemas-and-contracts
+- https://github.com/libre-ai/organization-data-lifecycle
+- https://github.com/libre-ai/database-policy-inspector
+- https://github.com/libre-ai/information-feed-filter
+- https://github.com/libre-ai/project-governance
+- https://github.com/libre-ai/execution-continuity-evaluator
+- https://github.com/libre-ai/ai-work-supervision
+- https://github.com/libre-ai/ai-model-policy
+- https://github.com/libre-ai/personal-knowledge-notebook
+- https://github.com/libre-ai/learning-session-facilitation
+- https://github.com/libre-ai/project-website
+- https://github.com/libre-ai/artifact-verification
+- https://github.com/libre-ai/capability-authorization
+- https://github.com/libre-ai/collaborative-data-sync
+- https://github.com/libre-ai/execution-sandbox
+- https://github.com/libre-ai/travel-itinerary-planner
+- https://github.com/libre-ai/public-vote-comparison
