@@ -5,7 +5,7 @@
 
 Projects for working and learning with AI, while keeping control over sources and decisions.
 
-**Today:** the repositories below describe the projects. They do not yet provide applications to use or components to install.
+**Today:** each repository below carries its implementation and its own checks. None of them is a released application you can install yet. What is actually proven for a given project is recorded in that repository's own state card — nothing here claims more than those cards do.
 
 ## Planned products
 
@@ -19,6 +19,7 @@ Choose the need that interests you:
 - [Find useful information in your feeds](https://github.com/libre-ai/information-feed-filter)
 - [Plan an itinerary using sources you can inspect](https://github.com/libre-ai/travel-itinerary-planner)
 - [Compare your views with public votes](https://github.com/libre-ai/public-vote-comparison)
+- [Report an incident and verify its fix](https://github.com/libre-ai/signalement)
 
 ## For developers
 
@@ -33,6 +34,7 @@ These components are planned to build and connect the products:
 - [Apply data retention and deletion rules](https://github.com/libre-ai/organization-data-lifecycle)
 - [Inspect database access rules](https://github.com/libre-ai/database-policy-inspector)
 - [Check that a file matches what is expected](https://github.com/libre-ai/artifact-verification)
+- [Record which checks an agent actually ran](https://github.com/libre-ai/pi-evidence)
 
 ## The project
 
