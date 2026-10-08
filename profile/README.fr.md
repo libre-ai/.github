@@ -47,6 +47,48 @@ Ces composants sont prévus pour construire et relier les produits :
 - [Vérifier qu’un fichier correspond à ce qui est attendu](https://github.com/libre-ai/artifact-verification)
 - [Consigner les contrôles qu’un agent a réellement exécutés](https://github.com/libre-ai/pi-evidence)
 
+## État des projets
+
+<!-- libre-ai:project-status:begin -->
+<!-- Section générée depuis les fiches project.v1.yaml de la constellation
+     (projection fleet-status) et l'index de migration du hub — ne pas éditer à la main. -->
+
+### Produits (couche 1)
+
+| Projet | Résumé | Avancement | Maturité | Vérifié le |
+| --- | --- | --- | --- | --- |
+| [carriere](https://github.com/libre-ai/carriere) | Assistant de recherche d'emploi pour cadres — souverain, explicable (8e produit, ratifié 2026-07-23). | Avancement non calculable — périmètre à clarifier | idea | 2026-10-08 |
+| [signalement](https://github.com/libre-ai/signalement) | Signalement web relu, reproduction exécutable et vérification déterministe, avec projections portables vers plusieurs systèmes de travail. | 18,8 % du périmètre actuellement déclaré | specified | 2026-10-06 |
+### Orchestration (couche 2)
+
+| Projet | Résumé | Avancement | Maturité | Vérifié le |
+| --- | --- | --- | --- | --- |
+| [orchestrator](https://github.com/libre-ai/execution-continuity-evaluator) | Cœur Rust sans effet pour le contrôle et les décisions authorized-execution, avec preuves de rejeu déterministe et outillage de revue. | 100 % du périmètre actuellement déclaré | usable | 2026-09-10 |
+| [harness](https://github.com/libre-ai/execution-sandbox) | Bibliothèque candidate de confinement attesté : cœur Rust et module hôte présents, dépendances explicitement bornées, qualification Linux et admission du garde encore ouvertes. | 0 % du périmètre actuellement déclaré | specified | 2026-09-12 |
+### Briques structurantes (couche 3)
+
+| Projet | Résumé | Avancement | Maturité | Vérifié le |
+| --- | --- | --- | --- | --- |
+| [authz-biscuit](https://github.com/libre-ai/capability-authorization) | Autorisation interne Biscuit Ed25519, refus par défaut : émission, atténuation, vérification, révocation et rotation à deux clés. | 50 % du périmètre actuellement déclaré | usable | 2026-07-30 |
+### Transverse
+
+| Projet | Résumé | Avancement | Maturité | Vérifié le |
+| --- | --- | --- | --- | --- |
+| [pi-evidence](https://github.com/libre-ai/pi-evidence) | Pi package and CLI for declared-check evidence and replay. | 50 % du périmètre actuellement déclaré | usable | 2026-10-06 |
+| [project-governance](https://github.com/libre-ai/project-governance) | Autorité de doctrine : décisions, invariants, index d'écosystème, schéma de fiches, outillage de flotte. | 33,3 % du périmètre actuellement déclaré | usable | 2026-09-09 |
+| [contracts](https://github.com/libre-ai/schemas-and-contracts) | Autorité canonique des contrats : catalogue, vecteurs, politiques de compatibilité. | 50 % du périmètre actuellement déclaré | usable | 2026-07-30 |
+### Moyeu
+
+| Projet | Résumé | Avancement | Maturité | Vérifié le |
+| --- | --- | --- | --- | --- |
+| [libre-ai](https://github.com/libre-ai/libre-ai) | L'archive du hub — histoire intégrale, index de migration et registre d'oubli (jalon γ complet, ADR-0020). | 100 % du périmètre actuellement déclaré | usable | 2026-07-30 |
+
+### Moyeu archivé
+
+Le hub historique [libre-ai/libre-ai](https://github.com/libre-ai/libre-ai) est archivé : 83/88 chemins tracés à l'index de migration ont quitté le hub (double présence tant que la preuve verte n'est pas faite à destination — jamais d'absence).
+
+<!-- libre-ai:project-status:end -->
+
 ## Le projet
 
 [Site prévu](https://github.com/libre-ai/project-website) · [Règles du projet](https://github.com/libre-ai/project-governance) · [Contribuer](https://github.com/libre-ai/.github/blob/main/CONTRIBUTING.md) · [Signaler une faille en privé](https://github.com/libre-ai/.github/blob/main/SECURITY.md)
