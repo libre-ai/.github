@@ -33,7 +33,6 @@ Repositories:
 - https://github.com/libre-ai/pi-evidence
 - https://github.com/libre-ai/project-governance
 - https://github.com/libre-ai/project-website
-- https://github.com/libre-ai/public-vote-comparison
 - https://github.com/libre-ai/schemas-and-contracts
 - https://github.com/libre-ai/signalement
 - https://github.com/libre-ai/travel-itinerary-planner
