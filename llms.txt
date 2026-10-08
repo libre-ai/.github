@@ -29,7 +29,7 @@ Repositories:
 - https://github.com/libre-ai/information-feed-filter
 - https://github.com/libre-ai/learning-session-facilitation
 - https://github.com/libre-ai/organization-data-lifecycle
-- https://github.com/libre-ai/personal-knowledge-notebook
+- https://github.com/libre-ai/personal-knowledge-workspace
 - https://github.com/libre-ai/pi-evidence
 - https://github.com/libre-ai/project-governance
 - https://github.com/libre-ai/project-website

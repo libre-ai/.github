@@ -27,7 +27,7 @@ Choisissez le besoin qui vous intéresse :
 - [Comprendre quels usages des modèles sont permis](https://github.com/libre-ai/ai-model-policy)
 - [Apprendre en pratiquant avec l’IA](https://github.com/libre-ai/ai-practice-workbench)
 - [Préparer et animer un atelier d’apprentissage](https://github.com/libre-ai/learning-session-facilitation)
-- [Retrouver ses notes et leurs sources](https://github.com/libre-ai/personal-knowledge-notebook)
+- [Retrouver ses notes et leurs sources](https://github.com/libre-ai/personal-knowledge-workspace)
 - [Repérer les informations utiles dans sa veille](https://github.com/libre-ai/information-feed-filter)
 - [Préparer un itinéraire à partir de sources consultables](https://github.com/libre-ai/travel-itinerary-planner)
 - [Signaler un incident et vérifier sa correction](https://github.com/libre-ai/signalement)
@@ -62,7 +62,7 @@ Ces composants sont prévus pour construire et relier les produits :
 | [carriere](https://github.com/libre-ai/carriere) | Assistant de recherche d'emploi pour cadres — souverain, explicable (8e produit, ratifié 2026-07-23). | Avancement non calculable — périmètre à clarifier | idea | 2026-10-08 |
 | [information-feed-filter](https://github.com/libre-ai/information-feed-filter) | information-feed-filter: recovered sources with documentary integration under review. | Avancement non calculable — périmètre à clarifier | idea | 2026-10-07 |
 | [learning-session-facilitation](https://github.com/libre-ai/learning-session-facilitation) | learning-session-facilitation: recovered sources with documentary integration under review. | Avancement non calculable — périmètre à clarifier | idea | 2026-10-07 |
-| [personal-knowledge-notebook](https://github.com/libre-ai/personal-knowledge-notebook) | personal-knowledge-notebook: recovered sources with documentary integration under review. | Avancement non calculable — périmètre à clarifier | idea | 2026-10-07 |
+| [personal-knowledge-workspace](https://github.com/libre-ai/personal-knowledge-workspace) | personal-knowledge-workspace: recovered sources with documentary integration under review. | Avancement non calculable — périmètre à clarifier | idea | 2026-10-07 |
 | [signalement](https://github.com/libre-ai/signalement) | Signalement web relu, reproduction exécutable et vérification déterministe, avec projections portables vers plusieurs systèmes de travail. | 18,8 % du périmètre actuellement déclaré | specified | 2026-10-06 |
 | [travel-itinerary-planner](https://github.com/libre-ai/travel-itinerary-planner) | travel-itinerary-planner: recovered sources with documentary integration under review. | Avancement non calculable — périmètre à clarifier | idea | 2026-10-08 |
 ### Orchestration (couche 2)

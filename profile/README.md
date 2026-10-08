@@ -27,7 +27,7 @@ Choose the need that interests you:
 - [Understand which model uses are permitted](https://github.com/libre-ai/ai-model-policy)
 - [Learn through hands-on AI practice](https://github.com/libre-ai/ai-practice-workbench)
 - [Prepare and facilitate a learning session](https://github.com/libre-ai/learning-session-facilitation)
-- [Find your notes and their sources](https://github.com/libre-ai/personal-knowledge-notebook)
+- [Find your notes and their sources](https://github.com/libre-ai/personal-knowledge-workspace)
 - [Find useful information in your feeds](https://github.com/libre-ai/information-feed-filter)
 - [Plan an itinerary using sources you can inspect](https://github.com/libre-ai/travel-itinerary-planner)
 - [Report an incident and verify its fix](https://github.com/libre-ai/signalement)
@@ -62,7 +62,7 @@ These components are planned to build and connect the products:
 | [carriere](https://github.com/libre-ai/carriere) | Assistant de recherche d'emploi pour cadres — souverain, explicable (8e produit, ratifié 2026-07-23). | Avancement non calculable — périmètre à clarifier | idea | 2026-10-08 |
 | [information-feed-filter](https://github.com/libre-ai/information-feed-filter) | information-feed-filter: recovered sources with documentary integration under review. | Avancement non calculable — périmètre à clarifier | idea | 2026-10-07 |
 | [learning-session-facilitation](https://github.com/libre-ai/learning-session-facilitation) | learning-session-facilitation: recovered sources with documentary integration under review. | Avancement non calculable — périmètre à clarifier | idea | 2026-10-07 |
-| [personal-knowledge-notebook](https://github.com/libre-ai/personal-knowledge-notebook) | personal-knowledge-notebook: recovered sources with documentary integration under review. | Avancement non calculable — périmètre à clarifier | idea | 2026-10-07 |
+| [personal-knowledge-workspace](https://github.com/libre-ai/personal-knowledge-workspace) | personal-knowledge-workspace: recovered sources with documentary integration under review. | Avancement non calculable — périmètre à clarifier | idea | 2026-10-07 |
 | [signalement](https://github.com/libre-ai/signalement) | Signalement web relu, reproduction exécutable et vérification déterministe, avec projections portables vers plusieurs systèmes de travail. | 18,8 % du périmètre actuellement déclaré | specified | 2026-10-06 |
 | [travel-itinerary-planner](https://github.com/libre-ai/travel-itinerary-planner) | travel-itinerary-planner: recovered sources with documentary integration under review. | Avancement non calculable — périmètre à clarifier | idea | 2026-10-08 |
 ### Orchestration (couche 2)
