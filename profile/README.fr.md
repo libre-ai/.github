@@ -1,7 +1,19 @@
 <!-- SPDX-FileCopyrightText: 2026 Libre AI contributors -->
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 
+<!-- libre-ai:brand-intro:begin -->
 # Libre AI
+
+> Les plateformes propriétaires vous louent le produit.
+
+## Possédez la fabrique.
+
+Libre AI réunit les logiciels, la méthode et les preuves pour construire des outils d'IA que vous pouvez vérifier, modifier et déployer où vous le décidez.
+
+**Ouverts, souverains et explicables.** Conçus dans une fabrique ouverte où la preuve fait partie du produit.
+
+[Prenez les clés.](https://libre-ai.fr/#produits) · [Voir les preuves.](https://libre-ai.fr/#preuves)
+<!-- libre-ai:brand-intro:end -->
 
 Des projets pour travailler et apprendre avec l’IA, en gardant la main sur les sources et les décisions.
 
@@ -18,7 +30,6 @@ Choisissez le besoin qui vous intéresse :
 - [Retrouver ses notes et leurs sources](https://github.com/libre-ai/personal-knowledge-notebook)
 - [Repérer les informations utiles dans sa veille](https://github.com/libre-ai/information-feed-filter)
 - [Préparer un itinéraire à partir de sources consultables](https://github.com/libre-ai/travel-itinerary-planner)
-- [Comparer ses positions avec des votes publics](https://github.com/libre-ai/public-vote-comparison)
 - [Signaler un incident et vérifier sa correction](https://github.com/libre-ai/signalement)
 
 ## Pour les développeurs
