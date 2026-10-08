@@ -65,7 +65,6 @@ These components are planned to build and connect the products:
 | --- | --- | --- | --- | --- |
 | [orchestrator](https://github.com/libre-ai/execution-continuity-evaluator) | Cœur Rust sans effet pour le contrôle et les décisions authorized-execution, avec preuves de rejeu déterministe et outillage de revue. | 100 % du périmètre actuellement déclaré | usable | 2026-09-10 |
 | [harness](https://github.com/libre-ai/execution-sandbox) | Bibliothèque candidate de confinement attesté : cœur Rust et module hôte présents, dépendances explicitement bornées, qualification Linux et admission du garde encore ouvertes. | 0 % du périmètre actuellement déclaré | specified | 2026-09-12 |
-| [pi-evidence](https://github.com/libre-ai/pi-evidence) | Pi package and CLI for declared-check evidence and replay. | 50 % du périmètre actuellement déclaré | usable | 2026-10-06 |
 ### Briques structurantes (couche 3)
 
 | Projet | Résumé | Avancement | Maturité | Vérifié le |
@@ -75,6 +74,7 @@ These components are planned to build and connect the products:
 
 | Projet | Résumé | Avancement | Maturité | Vérifié le |
 | --- | --- | --- | --- | --- |
+| [pi-evidence](https://github.com/libre-ai/pi-evidence) | Pi package and CLI for declared-check evidence and replay. | 50 % du périmètre actuellement déclaré | usable | 2026-10-06 |
 | [project-governance](https://github.com/libre-ai/project-governance) | Autorité de doctrine : décisions, invariants, index d'écosystème, schéma de fiches, outillage de flotte. | 33,3 % du périmètre actuellement déclaré | usable | 2026-09-09 |
 | [contracts](https://github.com/libre-ai/schemas-and-contracts) | Autorité canonique des contrats : catalogue, vecteurs, politiques de compatibilité. | 50 % du périmètre actuellement déclaré | usable | 2026-07-30 |
 ### Moyeu
