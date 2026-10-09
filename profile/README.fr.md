@@ -25,10 +25,8 @@ Choisissez le besoin qui vous intéresse :
 
 - [Suivre le travail confié à l’IA](https://github.com/libre-ai/ai-work-supervision)
 - [Comprendre quels usages des modèles sont permis](https://github.com/libre-ai/ai-model-policy)
-- [Apprendre en pratiquant avec l’IA](https://github.com/libre-ai/ai-practice-workbench)
 - [Préparer et animer un atelier d’apprentissage](https://github.com/libre-ai/learning-session-facilitation)
 - [Retrouver ses notes et leurs sources](https://github.com/libre-ai/personal-knowledge-workspace)
-- [Repérer les informations utiles dans sa veille](https://github.com/libre-ai/information-feed-filter)
 - [Préparer un itinéraire à partir de sources consultables](https://github.com/libre-ai/travel-itinerary-planner)
 - [Signaler un incident et vérifier sa correction](https://github.com/libre-ai/signalement)
 
@@ -58,26 +56,26 @@ Ces composants sont prévus pour construire et relier les produits :
 | Projet | Résumé | Avancement | Maturité | Vérifié le |
 | --- | --- | --- | --- | --- |
 | [ai-model-policy](https://github.com/libre-ai/ai-model-policy) | ai-model-policy: recovered sources with documentary integration under review. | Avancement non calculable — périmètre à clarifier | idea | 2026-10-07 |
-| [ai-practice-workbench](https://github.com/libre-ai/ai-practice-workbench) | ai-practice-workbench: recovered sources with documentary integration under review. | Avancement non calculable — périmètre à clarifier | idea | 2026-10-07 |
+| [ai-practice-workbench](https://github.com/libre-ai/ai-practice-workbench) | archived; its scope moved to libre-ai/personal-knowledge-workspace | Avancement non calculable — périmètre à clarifier | idea | 2026-10-07 |
 | [carriere](https://github.com/libre-ai/carriere) | Assistant de recherche d'emploi pour cadres — souverain, explicable (8e produit, ratifié 2026-07-23). | Avancement non calculable — périmètre à clarifier | idea | 2026-10-08 |
-| [information-feed-filter](https://github.com/libre-ai/information-feed-filter) | information-feed-filter: recovered sources with documentary integration under review. | Avancement non calculable — périmètre à clarifier | idea | 2026-10-07 |
+| [information-feed-filter](https://github.com/libre-ai/information-feed-filter) | archived; its scope moved to libre-ai/personal-knowledge-workspace | Avancement non calculable — périmètre à clarifier | idea | 2026-10-07 |
 | [learning-session-facilitation](https://github.com/libre-ai/learning-session-facilitation) | learning-session-facilitation: recovered sources with documentary integration under review. | Avancement non calculable — périmètre à clarifier | idea | 2026-10-07 |
 | [personal-knowledge-workspace](https://github.com/libre-ai/personal-knowledge-workspace) | personal-knowledge-workspace: recovered sources with documentary integration under review. | Avancement non calculable — périmètre à clarifier | idea | 2026-10-07 |
-| [signalement](https://github.com/libre-ai/signalement) | Signalement web relu, reproduction exécutable et vérification déterministe, avec projections portables vers plusieurs systèmes de travail. | 18,8 % du périmètre actuellement déclaré | specified | 2026-10-06 |
+| [signalement](https://github.com/libre-ai/signalement) | Signalement web relu, reproduction exécutable et vérification déterministe, avec projections portables vers plusieurs systèmes de travail. | 18,8 % du périmètre actuellement déclaré | specified | 2026-10-07 |
 | [travel-itinerary-planner](https://github.com/libre-ai/travel-itinerary-planner) | travel-itinerary-planner: recovered sources with documentary integration under review. | Avancement non calculable — périmètre à clarifier | idea | 2026-10-08 |
 ### Orchestration (couche 2)
 
 | Projet | Résumé | Avancement | Maturité | Vérifié le |
 | --- | --- | --- | --- | --- |
 | [ai-work-supervision](https://github.com/libre-ai/ai-work-supervision) | ai-work-supervision: recovered sources with documentary integration under review. | Avancement non calculable — périmètre à clarifier | idea | 2026-10-07 |
-| [orchestrator](https://github.com/libre-ai/execution-continuity-evaluator) | Cœur Rust sans effet pour le contrôle et les décisions authorized-execution, avec preuves de rejeu déterministe et outillage de revue. | 100 % du périmètre actuellement déclaré | usable | 2026-09-10 |
-| [harness](https://github.com/libre-ai/execution-sandbox) | Bibliothèque candidate de confinement attesté : cœur Rust et module hôte présents, dépendances explicitement bornées, qualification Linux et admission du garde encore ouvertes. | 0 % du périmètre actuellement déclaré | specified | 2026-09-12 |
+| [execution-continuity-evaluator](https://github.com/libre-ai/execution-continuity-evaluator) | Cœur Rust sans effet pour le contrôle et les décisions authorized-execution, avec preuves de rejeu déterministe et outillage de revue. | 100 % du périmètre actuellement déclaré | usable | 2026-09-10 |
+| [execution-sandbox](https://github.com/libre-ai/execution-sandbox) | Bibliothèque candidate de confinement attesté : cœur Rust et module hôte présents, dépendances explicitement bornées, qualification Linux et admission du garde encore ouvertes. | 0 % du périmètre actuellement déclaré | specified | 2026-09-12 |
 ### Briques structurantes (couche 3)
 
 | Projet | Résumé | Avancement | Maturité | Vérifié le |
 | --- | --- | --- | --- | --- |
 | [artifact-verification](https://github.com/libre-ai/artifact-verification) | artifact-verification: recovered sources with documentary integration under review. | Avancement non calculable — périmètre à clarifier | idea | 2026-10-07 |
-| [authz-biscuit](https://github.com/libre-ai/capability-authorization) | Autorisation interne Biscuit Ed25519, refus par défaut : émission, atténuation, vérification, révocation et rotation à deux clés. | 50 % du périmètre actuellement déclaré | usable | 2026-07-30 |
+| [capability-authorization](https://github.com/libre-ai/capability-authorization) | Autorisation interne Biscuit Ed25519, refus par défaut : émission, atténuation, vérification, révocation et rotation à deux clés. | 50 % du périmètre actuellement déclaré | usable | 2026-07-30 |
 ### Atelier (couche 4)
 
 | Projet | Résumé | Avancement | Maturité | Vérifié le |
@@ -91,7 +89,7 @@ Ces composants sont prévus pour construire et relier les produits :
 | [database-policy-inspector](https://github.com/libre-ai/database-policy-inspector) | database-policy-inspector: recovered sources with documentary integration under review. | Avancement non calculable — périmètre à clarifier | idea | 2026-10-07 |
 | [pi-evidence](https://github.com/libre-ai/pi-evidence) | Pi package and CLI for declared-check evidence and replay. | 50 % du périmètre actuellement déclaré | usable | 2026-10-06 |
 | [project-governance](https://github.com/libre-ai/project-governance) | Autorité de doctrine : décisions, invariants, index d'écosystème, schéma de fiches, outillage de flotte. | 33,3 % du périmètre actuellement déclaré | usable | 2026-10-08 |
-| [contracts](https://github.com/libre-ai/schemas-and-contracts) | Autorité canonique des contrats : catalogue, vecteurs, politiques de compatibilité. | 50 % du périmètre actuellement déclaré | usable | 2026-07-30 |
+| [schemas-and-contracts](https://github.com/libre-ai/schemas-and-contracts) | Autorité canonique des contrats : catalogue, vecteurs, politiques de compatibilité. | 50 % du périmètre actuellement déclaré | usable | 2026-07-30 |
 ### Moyeu
 
 | Projet | Résumé | Avancement | Maturité | Vérifié le |
