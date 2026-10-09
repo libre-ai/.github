@@ -16,7 +16,6 @@ The short-name generation that preceded this portfolio (feed-radar, notebook, po
 
 Repositories:
 - https://github.com/libre-ai/.github
-- https://github.com/libre-ai/ai-practice-workbench
 - https://github.com/libre-ai/ai-model-policy
 - https://github.com/libre-ai/ai-work-supervision
 - https://github.com/libre-ai/application-development-toolkit
@@ -26,7 +25,6 @@ Repositories:
 - https://github.com/libre-ai/database-policy-inspector
 - https://github.com/libre-ai/execution-continuity-evaluator
 - https://github.com/libre-ai/execution-sandbox
-- https://github.com/libre-ai/information-feed-filter
 - https://github.com/libre-ai/learning-session-facilitation
 - https://github.com/libre-ai/organization-data-lifecycle
 - https://github.com/libre-ai/personal-knowledge-workspace
