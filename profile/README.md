@@ -12,7 +12,7 @@ Libre AI brings together the software, method, and evidence to build AI tools yo
 
 **Open, sovereign, and explainable.** Built in an open factory where evidence is part of the product.
 
-[Take the keys.](https://libre-ai.fr/#produits) · [See the evidence.](https://libre-ai.fr/#preuves)
+[Take the keys.](https://github.com/libre-ai/.github/blob/HEAD/profile/README.md#planned-products) · [See the evidence.](https://github.com/libre-ai/project-governance/tree/HEAD/distribution/evidence)
 <!-- libre-ai:brand-intro:end -->
 
 Projects for working and learning with AI, while keeping control over sources and decisions.
