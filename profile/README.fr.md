@@ -12,7 +12,7 @@ Libre AI réunit les logiciels, la méthode et les preuves pour construire des o
 
 **Ouverts, souverains et explicables.** Conçus dans une fabrique ouverte où la preuve fait partie du produit.
 
-[Prenez les clés.](https://libre-ai.fr/#produits) · [Voir les preuves.](https://libre-ai.fr/#preuves)
+[Prenez les clés.](https://github.com/libre-ai/.github/blob/HEAD/profile/README.fr.md#les-produits-envisag%C3%A9s) · [Voir les preuves.](https://github.com/libre-ai/project-governance/tree/HEAD/distribution/evidence)
 <!-- libre-ai:brand-intro:end -->
 
 Des projets pour travailler et apprendre avec l’IA, en gardant la main sur les sources et les décisions.
