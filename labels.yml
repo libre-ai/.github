@@ -1,0 +1,43 @@
+# SPDX-FileCopyrightText: 2026 Libre AI contributors
+# SPDX-License-Identifier: CC-BY-4.0
+#
+# Label vocabulary of the Libre AI organisation: the single source of truth.
+# Repositories never declare these by hand. The planner in libre-ai/project-governance
+# (tools/fleet/sync-labels.ts) reads this file and reports, per repository, which
+# labels would be created or updated; it never deletes a label. Applying the plan is
+# an owner act run with the owner's own token, never a CI job.
+#
+# Every field is required. Quote colors: an unquoted 123456 is a YAML number and the
+# planner refuses it. A color is 6 hexadecimal digits, without "#".
+
+- name: "kind:work-package"
+  color: "1d76db"
+  description: "A work package of an approved product requirements document"
+
+- name: "kind:decision-request"
+  color: "5319e7"
+  description: "A decision only the owner can take, with its options and consequences"
+
+- name: "kind:idea"
+  color: "fbca04"
+  description: "A deferred idea, with the reason it is not scheduled"
+
+- name: "kind:question"
+  color: "d876e3"
+  description: "An open question, with the document that should carry the missing fact"
+
+- name: "ready"
+  color: "0e8a16"
+  description: "Ready to be worked on"
+
+- name: "status:blocked-review"
+  color: "b60205"
+  description: "Blocked until a required review is done"
+
+- name: "review:architecture"
+  color: "006b75"
+  description: "Needs an architecture review"
+
+- name: "review:security"
+  color: "d93f0b"
+  description: "Needs a security review"
