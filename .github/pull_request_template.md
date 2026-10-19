@@ -31,22 +31,26 @@ command that shows it at its real surface.
 ## Work package
 
 <!--
-Work-package — exactly one declaration line in this description: the issue that
-projects the work package, and the row of the PRD table it implements. Both
-must agree with the body of that issue (### PRD-ref, ### WP). Replace the line
-below with `Work-package: <owner>/<repo>#<n> WP-<k>` filled in; the placeholder
-is refused on purpose, choosing is the point.
+Work package — declared in a commit, not in this description. This description
+is not read for it, so nothing written here declares a work package.
 
-A pull request that implements no work package declares an exemption instead,
-on a line of its own, copied out of this comment:
+On at least one commit of the pull request, set a git trailer:
 
-Exempt: <class>
+  git commit --trailer "Work-package: <owner>/<repo>#<n> WP-<k>"
+
+where <owner>/<repo>#<n> is the issue that projects the work package and
+WP-<k> the row of the PRD table it implements; both must agree with the body
+of that issue (### PRD-ref, ### WP). The same value may be repeated on several
+commits; two distinct values are refused.
+
+A pull request that implements no work package declares an exemption instead:
+
+  git commit --trailer "Exempt: <class>"
 
 where <class> is one of dependabot, docs-only or revert. The gate verifies the
 predicate of the class on the pull request itself (its author, the paths it
-changes, or its title); it never believes the claim. Never both lines.
+changes, or its title); it never believes the claim. Never both.
 -->
-Work-package: <owner>/<repo>#<n> WP-<k>
 
 ## Reversibility and blast radius
 
