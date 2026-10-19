@@ -1,0 +1,36 @@
+# SPDX-FileCopyrightText: 2026 Libre AI contributors
+# SPDX-License-Identifier: CC-BY-4.0
+#
+# Work package: the issue that projects one row of an approved PRD table.
+# The two field labels below are load-bearing: GitHub renders the issue body as
+# "### PRD-ref" then "### WP", the exact headings docs/specifications/WORK-PACKAGES.md
+# (libre-ai/project-governance) prescribes and its gate reads. Scope and
+# verification live in the PRD, never in this form. Validated by
+# tools/quality/check-issue-forms.ts in libre-ai/project-governance.
+name: Work package
+description: One work package of an approved product requirements document
+title: "[Work package]: "
+labels:
+  - kind:work-package
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A work package projects one row of the table of an approved PRD. Scope and
+        verification are read from the PRD at the commit cited below, not from this issue.
+  - type: input
+    id: prd-ref
+    attributes:
+      label: PRD-ref
+      description: "The PRD at an exact commit, in the form <owner>/<repo>@<40 hex>:<path>, for example libre-ai/example@0123456789abcdef0123456789abcdef01234567:docs/prd.md. A short or symbolic revision is refused."
+      placeholder: "<owner>/<repo>@<40 hex>:<path>"
+    validations:
+      required: true
+  - type: input
+    id: wp
+    attributes:
+      label: WP
+      description: "The row of the PRD table this issue projects, in the form WP-<k>."
+      placeholder: "WP-1"
+    validations:
+      required: true

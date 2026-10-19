@@ -1,0 +1,25 @@
+# SPDX-FileCopyrightText: 2026 Libre AI contributors
+# SPDX-License-Identifier: CC-BY-4.0
+#
+# Idea: a deferred idea, recorded with the reason it is not scheduled.
+# Validated by tools/quality/check-issue-forms.ts in libre-ai/project-governance.
+name: Idea
+description: A deferred idea, with the reason it is not scheduled
+title: "[Idea]: "
+labels:
+  - kind:idea
+body:
+  - type: textarea
+    id: statement
+    attributes:
+      label: Statement
+      description: "The idea, stated so that it can be understood without other context."
+    validations:
+      required: true
+  - type: textarea
+    id: why-deferred
+    attributes:
+      label: Why deferred
+      description: "The reason this is not scheduled now."
+    validations:
+      required: true

@@ -28,6 +28,26 @@ example `bun run check`), run after `git add`; for a change of behaviour, the
 command that shows it at its real surface.
 -->
 
+## Work package
+
+<!--
+Work-package — exactly one declaration line in this description: the issue that
+projects the work package, and the row of the PRD table it implements. Both
+must agree with the body of that issue (### PRD-ref, ### WP). Replace the line
+below with `Work-package: <owner>/<repo>#<n> WP-<k>` filled in; the placeholder
+is refused on purpose, choosing is the point.
+
+A pull request that implements no work package declares an exemption instead,
+on a line of its own, copied out of this comment:
+
+Exempt: <class>
+
+where <class> is one of dependabot, docs-only or revert. The gate verifies the
+predicate of the class on the pull request itself (its author, the paths it
+changes, or its title); it never believes the claim. Never both lines.
+-->
+Work-package: <owner>/<repo>#<n> WP-<k>
+
 ## Reversibility and blast radius
 
 <!--

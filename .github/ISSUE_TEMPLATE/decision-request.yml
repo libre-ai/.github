@@ -1,0 +1,55 @@
+# SPDX-FileCopyrightText: 2026 Libre AI contributors
+# SPDX-License-Identifier: CC-BY-4.0
+#
+# Decision request: a decision only the owner can take, with 2 to 4 mutually
+# exclusive options. Options A and B are required, C and D optional;
+# Recommendation exists only when there is a real one. Validated by
+# tools/quality/check-issue-forms.ts in libre-ai/project-governance.
+name: Decision request
+description: A decision only the owner can take, with its options and consequences
+title: "[Decision]: "
+labels:
+  - kind:decision-request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Only the owner answers a decision request. Restate here everything needed to decide
+        without opening another file: an excerpt or a 2 to 4 line summary of what changes the
+        decision, with its source. Give 2 to 4 mutually exclusive options.
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: "The context needed to decide without opening another file."
+    validations:
+      required: true
+  - type: textarea
+    id: option-a
+    attributes:
+      label: Option A
+      description: "The option, its consequence, and its reversibility (can it be walked back, and at what cost)."
+    validations:
+      required: true
+  - type: textarea
+    id: option-b
+    attributes:
+      label: Option B
+      description: "The option, its consequence, and its reversibility (can it be walked back, and at what cost)."
+    validations:
+      required: true
+  - type: textarea
+    id: option-c
+    attributes:
+      label: Option C
+      description: "Optional. The option, its consequence, and its reversibility."
+  - type: textarea
+    id: option-d
+    attributes:
+      label: Option D
+      description: "Optional. The option, its consequence, and its reversibility."
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: Recommendation
+      description: "Optional. Fill it only when there is a real recommendation: name the option and give the reason."
