@@ -22,8 +22,8 @@ body:
     id: prd-ref
     attributes:
       label: PRD-ref
-      description: "The PRD at an exact commit, in the form <owner>/<repo>@<40 hex>:<path>, for example libre-ai/example@0123456789abcdef0123456789abcdef01234567:docs/prd.md. A short or symbolic revision is refused."
-      placeholder: "<owner>/<repo>@<40 hex>:<path>"
+      description: "The PRD at an exact commit, in the form <owner>/<repo>@<40 hex>:docs/prd.md, for example libre-ai/example@0123456789abcdef0123456789abcdef01234567:docs/prd.md. The path is exactly docs/prd.md; any other path, and a short or symbolic revision, is refused."
+      placeholder: "<owner>/<repo>@<40 hex>:docs/prd.md"
     validations:
       required: true
   - type: input
