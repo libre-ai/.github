@@ -1,0 +1,25 @@
+# SPDX-FileCopyrightText: 2026 Libre AI contributors
+# SPDX-License-Identifier: CC-BY-4.0
+#
+# Question: an open question, with the document that should carry the missing fact.
+# Validated by tools/quality/check-issue-forms.ts in libre-ai/project-governance.
+name: Question
+description: An open question, with the document that should carry the missing fact
+title: "[Question]: "
+labels:
+  - kind:question
+body:
+  - type: textarea
+    id: statement
+    attributes:
+      label: Statement
+      description: "The question, stated so that it can be answered without other context."
+    validations:
+      required: true
+  - type: input
+    id: document
+    attributes:
+      label: Document carrying the missing fact
+      description: "The document that should carry the answer once it is known, as a repository-relative path or a link."
+    validations:
+      required: true

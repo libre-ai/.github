@@ -28,6 +28,30 @@ example `bun run check`), run after `git add`; for a change of behaviour, the
 command that shows it at its real surface.
 -->
 
+## Work package
+
+<!--
+Work package — declared in a commit, not in this description. This description
+is not read for it, so nothing written here declares a work package.
+
+On at least one commit of the pull request, set a git trailer:
+
+  git commit --trailer "Work-package: <owner>/<repo>#<n> WP-<k>"
+
+where <owner>/<repo>#<n> is the issue that projects the work package and
+WP-<k> the row of the PRD table it implements; both must agree with the body
+of that issue (### PRD-ref, ### WP). The same value may be repeated on several
+commits; two distinct values are refused.
+
+A pull request that implements no work package declares an exemption instead:
+
+  git commit --trailer "Exempt: <class>"
+
+where <class> is one of dependabot, docs-only or revert. The gate verifies the
+predicate of the class on the pull request itself (its author, the paths it
+changes, or its title); it never believes the claim. Never both.
+-->
+
 ## Reversibility and blast radius
 
 <!--
