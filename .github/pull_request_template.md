@@ -5,11 +5,11 @@ Fleet pull request template (libre-ai/.github, default for every repository
 that carries no template of its own). Comments like this one are guidance:
 they are not rendered, and gates reading the description ignore them.
 
-The declaration lines below (Door, Second-instrument, Owner-arbitration) are
-read by gates, so their form is exact: the key at the start of its own line,
-outside a code block. Where a repository runs the Door gate
-(project-governance: tools/quality/check-pr-door.ts), a description without
-a valid Door line does not pass.
+The declaration lines below (Origin, Not-added, Door, Second-instrument,
+Owner-arbitration) are read by gates, so their form is exact: the key at the
+start of its own line, outside a code block. Where a repository runs the Door
+gate (project-governance: tools/quality/check-pr-door.ts), a description
+without a valid Door line and a valid Origin line does not pass.
 -->
 
 ## Summary
@@ -17,6 +17,37 @@ a valid Door line does not pass.
 <!--
 The smallest visual that carries the change: a before/after table, a list of
 the files that move, or one diagram. Prefer a table over a paragraph.
+-->
+
+## Origin
+
+<!--
+Origin — exactly one line, one value (project-governance ADR-0056 D1): where
+the problem this pull request treats comes from.
+  observed: a failure that happened in real use, or a dated and cited stale
+    fact; it carries its ISO date and its source (pull request, issue,
+    path:line, session note): `Origin: observed 2026-10-07 <source>`;
+  inspection: a defect found by reading code, doctrine or a tool;
+  synthetic: a case built for the occasion (probe, fixture, vector,
+    mutation) — a probe that turns red is synthetic, even when it reproduces
+    a real defect;
+  proposal: an improvement with no defect found.
+Nothing follows a value other than observed. A problem with several origins
+declares the one that triggered it and cites the others in this body.
+Replace the line below with one of these forms.
+-->
+Origin: observed YYYY-MM-DD <source> | inspection | synthetic | proposal
+
+<!--
+Not-added — optional (project-governance ADR-0056 D5): what a pull request
+that adds a capability does not add, from the closed vocabulary dependency,
+schema, workflow, hosted-service, telemetry, public-surface, comma-separated,
+each once, on one line. Where the gate runs, dependency, schema and workflow
+are checked against the diff, and a declaration the diff contradicts fails;
+the other three are read in review. Copy this line out of the comment and
+keep only what is true:
+
+Not-added: dependency, schema, workflow, hosted-service, telemetry, public-surface
 -->
 
 ## Evidence
