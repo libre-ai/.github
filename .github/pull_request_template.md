@@ -11,8 +11,10 @@ they are not rendered, and gates reading the description ignore them.
 The declaration block is the two lines above, and it must stay where it is:
 the first lines of the description, right after the SPDX comment lines,
 ended by one blank line. Each line is `Key: value`, the key at the start of
-the line; a value carries no HTML and closes on its own line every backtick
-code span, bracket, parenthesis, `~~` and double quote it opens. Where a
+the line. Outside backtick code spans, which close on their own line, a value
+carries no `[`, `]`, `~`, `$` or HTML: no markdown link, image, strikethrough
+or math. A link is written bare (https://…) or as an autolink <https://…>;
+anything else goes in a code span. Where a
 repository runs the Door gate (project-governance:
 tools/quality/check-pr-door.ts), a description whose first lines are not
 this block, with a valid Door line and a valid Origin line, does not pass;
