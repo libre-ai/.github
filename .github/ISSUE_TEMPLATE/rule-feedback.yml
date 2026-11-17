@@ -1,0 +1,92 @@
+# SPDX-FileCopyrightText: 2026 Libre AI contributors
+# SPDX-License-Identifier: CC-BY-4.0
+#
+# Rule feedback: a divergent reading of a served rule, reported by identifiers
+# only. Every field is one line and required, so GitHub renders the issue body
+# as eight "### <label>" sections, in this order: Rule identifier, Excerpt
+# digest, Pack, Snapshot, Overlays, Core version, Nature, Proposal. That body is
+# the ticket format: the feedback command prints the same eight labels in the
+# same order, and tools/quality/check-rule-feedback.ts in
+# libre-ai/project-governance validates it. The labels are load-bearing; the
+# value forms are read by that validator, not repeated here. Validated by
+# tools/quality/check-issue-forms.ts in libre-ai/project-governance.
+name: Rule feedback
+description: A divergent reading of a served rule, reported by identifiers only
+title: "[Rule feedback]: "
+labels:
+  - kind:rule-feedback
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Copy each value from the output of the feedback command, field by field. Paste no
+        rule text, no rephrasing of the pack, no description of your project and no machine
+        path: the ticket carries identifiers only, and this issue is public.
+  - type: input
+    id: rule-id
+    attributes:
+      label: Rule identifier
+      description: "The identifier of the served rule, as the feedback command prints it."
+      placeholder: "<source>:<key>#<locator>"
+    validations:
+      required: true
+  - type: input
+    id: excerpt-digest
+    attributes:
+      label: Excerpt digest
+      description: "The digest of the excerpt you read: 64 lowercase hexadecimal digits. It names the edition of the text, never the text itself."
+      placeholder: "<64 hex>"
+    validations:
+      required: true
+  - type: input
+    id: pack
+    attributes:
+      label: Pack
+      description: "The pack that served the rule, in the form source@edition."
+      placeholder: "<source>@<edition>"
+    validations:
+      required: true
+  - type: input
+    id: snapshot
+    attributes:
+      label: Snapshot
+      description: "The snapshot that served the pack, in the form publisher@version."
+      placeholder: "<publisher>@<version>"
+    validations:
+      required: true
+  - type: input
+    id: overlays
+    attributes:
+      label: Overlays
+      description: "The reference of each served overlay that has an entry on this rule, in stack order, separated by commas without spaces; none when there is none."
+      placeholder: "<publisher>/<overlay>@<version>,... or none"
+    validations:
+      required: true
+  - type: input
+    id: core-version
+    attributes:
+      label: Core version
+      description: "The version of the core tool, in the form MAJOR.MINOR.PATCH, optionally followed by a pre-release."
+      placeholder: "<major>.<minor>.<patch>"
+    validations:
+      required: true
+  - type: dropdown
+    id: nature
+    attributes:
+      label: Nature
+      description: "What the divergence is about: the wording of the rule, its trigger, or its level."
+      multiple: false
+      options:
+        - rephrasing
+        - trigger
+        - level
+    validations:
+      required: true
+  - type: input
+    id: proposal
+    attributes:
+      label: Proposal
+      description: "One line, or none. For rephrasing, the proposed wording; for trigger, type=value; for level, the proposed level."
+      placeholder: "none"
+    validations:
+      required: true

@@ -26,6 +26,10 @@
   color: "d876e3"
   description: "An open question, with the document that should carry the missing fact"
 
+- name: "kind:rule-feedback"
+  color: "5ebeff"
+  description: "Feedback on a served rule, by identifiers only"
+
 - name: "ready"
   color: "0e8a16"
   description: "Ready to be worked on"
